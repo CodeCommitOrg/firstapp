@@ -1,0 +1,24 @@
+_id: req_wrk_9ca671048f7943f798b09f929a81f82ee804bd05
+type: Request
+parentId: fld_wrk_9ca671048f7943f798b09f929a81f82e1b034c38
+modified: 1652878741078
+created: 1652878741078
+url: "{{ base_url }}/pet/{{ petId }}"
+name: Deletes a pet
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: api_key
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1652878741078
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
